@@ -46,7 +46,7 @@ const ProductsSection = () => {
     return (
         <section id="products-section" className="container mx-auto mt-32">
             <h2 className="font-bold italic text-4xl text-center mb-11">
-                <span className="text-primary">OUR</span>PRODUCTS
+                <span className="text-primary">OUR</span> PRODUCTS
             </h2>
             <div className="grid grid-cols-4">
                 {productList.map((product, index) => (
