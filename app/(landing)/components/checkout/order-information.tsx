@@ -23,7 +23,7 @@ const OrderInformation = ({formData, setFormData}: TOrderInformation) => {
                 </div>
                 <div className="input-group">
                     <label htmlFor="customerContact">Whatsapp Number</label>
-                    <input type="text" placeholder="Type your whatsapp number" id="customerContact" name="customerContact" value={formData.customerContact??""} onChange={handleInputChange} />
+                    <input type="text" placeholder="Type your whatsapp number" id="customerContact" name="customerContact" value={formData.customerContact} onChange={handleInputChange} />
                 </div>
                 <div className="input-group">
                     <label htmlFor="customerAddress">Shipping Address</label>
